@@ -5,7 +5,7 @@
 	
   
 	public function __construct(){
-		$config = array("db_server"=>"localhost","db_user"=>"root","db_password"=>"password","db_name"=>"_api");
+		$config = array("db_server"=>"","db_user"=>"","db_password"=>"","db_name"=>"");
 			global $dbconn;
 			global $db;
 		$this->dbconn = mysqli_connect($config['db_server'], $config['db_user'], $config['db_password']) 
