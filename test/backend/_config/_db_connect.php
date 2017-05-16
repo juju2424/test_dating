@@ -2,10 +2,10 @@
  class DB{
 
 	protected $error;
-	protected $db_name = 'dating';
-	protected $db_user = 'root';
-	protected $db_pass = 'password';
-	protected $db_host = 'localhost';
+	protected $db_name = '';
+	protected $db_user = '';
+	protected $db_pass = '';
+	protected $db_host = '';
 	protected $myconn;
 	
 	// Open a connect to the database.
